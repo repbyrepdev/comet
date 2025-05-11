@@ -56,6 +56,7 @@ class AppSettings(BaseSettings):
     SCRAPE_TORRENTIO: Optional[bool] = False
     TORRENTIO_URL: Optional[str] = "https://torrentio.strem.fun"
     SCRAPE_MEDIAFUSION: Optional[bool] = False
+    MEDIAFUSION_API_KEY: Optional[str] = ""
     MEDIAFUSION_URL: Optional[str] = "https://mediafusion.elfhosted.com"
     CUSTOM_HEADER_HTML: Optional[str] = None
     PROXY_DEBRID_STREAM: Optional[bool] = False
